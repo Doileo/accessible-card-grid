@@ -5,11 +5,18 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  height: 100%; /* Ensure the body takes up the full height of the viewport */
+}
+
 body {
   font-family: "Georgia", serif;
   background-color: #f4e9dc;
   color: #4b3f37;
   line-height: 1.6;
+  display: flex;
+  flex-direction: column;
 }
 
 header,
@@ -39,6 +46,10 @@ p {
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
+}
+
+main {
+  flex-grow: 1; /* Ensures that the main content pushes the footer to the bottom */
 }
 
 /* Card Grid */
@@ -110,7 +121,6 @@ footer {
   text-align: center;
   font-size: 1.1rem;
   color: #4b3f37;
-  margin-top: 20px;
   padding: 20px;
   background-color: #f4e9dc;
   border-top: 2px solid #d96752;
@@ -153,9 +163,7 @@ footer span[role="img"] {
   }
 
   footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    position: static; /* Footer doesn't need to be fixed, it's handled by flexbox */
   }
 }
 
@@ -166,5 +174,11 @@ footer span[role="img"] {
 
   h1 {
     font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .card-grid {
+    padding: 60px;
   }
 }
