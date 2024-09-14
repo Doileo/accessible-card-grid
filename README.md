@@ -22,12 +22,12 @@ The goal of this project was to build an accessible card grid that is both respo
 
 ### Screenshots
 
-| Device      | State        | Screenshot                                                      |
-| ----------- | ------------ | --------------------------------------------------------------- |
-| **Mobile**  | Default      | ![Mobile View](images/mobile-view.png){:height="500px"}         |
-| **Tablet**  | Default      | ![Tablet View](images/tablet-view-default.png){:height="400px"} |
-|             | Hover Effect | ![Tablet Hover](images/tablet-view-hover.png){:height="400px"}  |
-| **Desktop** | Default      | ![Desktop View](images/desktop-view.png){:height="400px"}       |
+| Device      | State        | Screenshot                                                                              |
+| ----------- | ------------ | --------------------------------------------------------------------------------------- |
+| **Mobile**  | Default      | <img src="images/mobile-view.png" alt="Mobile View" width="300" height="auto"/>         |
+| **Tablet**  | Default      | <img src="images/tablet-view-default.png" alt="Tablet View" width="300" height="auto"/> |
+|             | Hover Effect | <img src="images/tablet-view-hover.png" alt="Tablet Hover" width="300" height="auto"/>  |
+| **Desktop** | Default      | <img src="images/desktop-view.png" alt="Desktop View" width="600" height="auto"/>       |
 
 ### Links
 
