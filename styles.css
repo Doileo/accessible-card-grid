@@ -71,7 +71,7 @@ main {
 }
 
 .card:focus {
-  outline: 2px solid #d96752;
+  outline: 2px solid #b15342;
 }
 
 .card:hover,
@@ -103,7 +103,7 @@ main {
   display: block;
   padding: 10px;
   text-align: center;
-  background-color: #d96752;
+  background-color: #b15342;
   color: white;
   text-decoration: none;
   font-weight: bold;
@@ -123,11 +123,11 @@ footer {
   color: #4b3f37;
   padding: 20px;
   background-color: #f4e9dc;
-  border-top: 2px solid #d96752;
+  border-top: 2px solid #b15342;
 }
 
 footer a {
-  color: #d96752;
+  color: #b15342;
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease;
